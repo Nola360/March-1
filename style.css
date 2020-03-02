@@ -20,7 +20,7 @@ body {
 .sideMenu .close {
   position: absolute;
   top: 0;
-  right: 25px;
+  right: 20px;
   font-size: 55px;
   color: white;
 }
@@ -52,7 +52,7 @@ body {
 }
 
 #sideMenu-wrapper a:hover {
-  padding-left: 50px;
+  padding-left: 65px;
   transition: .35s ease-in-out;
   color: hotpink;
 }
@@ -63,7 +63,7 @@ body {
 
 #page-content {
   transition: margin-left .5s;
-  padding: 16px;
+  padding-left: 15px;
   
 }
 
@@ -71,7 +71,7 @@ h1 {
   text-align: center;
   font-size: 8em;
   letter-spacing: 16px;
-  padding: 30px 30px 30px 200px;
+  padding: 30px 30px 30px 100px;
   color: hotpink;
 }
 
@@ -79,7 +79,7 @@ span {
   letter-spacing: 44px;
   padding-left: 16px;
   color: teal;
-  font-size: 1.2em;
+  /* font-size: 1.2em; */
   
 }
 
