@@ -1,0 +1,85 @@
+body {
+  background: rgb(183, 253, 255);
+  margin: 0;
+  overflow: hidden;
+}
+
+.sideMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  padding-top: 60px;
+  width: 0;
+  overflow-x: hidden;
+  background: teal;
+  transition: .5s;
+  z-index: 1;
+}
+
+.sideMenu .close {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 55px;
+  color: white;
+}
+
+.sideMenu a {
+  display: block;
+  font-size: 44px;
+  padding: 4px 4px 4px 8px;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+  transition: 0.3s ease-in-out;
+}
+
+#sideMenu-wrapper {
+  margin-top: 100px;
+}
+
+#sideMenu-wrapper a:after {
+  content: '';
+  position: absolute;
+  left: 0%;
+  width: 0;
+  height: 50px;
+  background: rgb(183, 253, 255);
+  transition: width .3s ease-in-out;
+  z-index: -1;
+}
+
+#sideMenu-wrapper a:hover {
+  padding-left: 50px;
+  transition: .35s ease-in-out;
+  color: hotpink;
+}
+
+#sideMenu-wrapper a:hover:after {
+  width: 10%;
+}
+
+#page-content {
+  transition: margin-left .5s;
+  padding: 16px;
+  
+}
+
+h1 {
+  text-align: center;
+  font-size: 8em;
+  letter-spacing: 16px;
+  padding: 30px 30px 30px 200px;
+  color: hotpink;
+}
+
+span {
+  letter-spacing: 44px;
+  padding-left: 16px;
+  color: teal;
+  font-size: 1.2em;
+  
+}
+
